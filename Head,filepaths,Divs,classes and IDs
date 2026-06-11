@@ -1,0 +1,23 @@
+<!-- 1. Update your <head>-->
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewpoint'
+	content='width =device-width,initial-scale=1.0'>
+	<title>Catherine Wanjiru-Home</title>
+	<link rel="stylesheet" href='style.css'>
+</head>
+
+<!--2.Wrap each section in a div with id-->
+<div id="about">
+	<h2>About Me</h2>
+	<p>My name is Catherine Njaro</p>
+</div>
+<div id="hobbies"><h2>Hobbies</h2></div>
+<div id="contact"><h2>Contact</h2></div>
+
+<!--3.Update nav + add class to cards-->
+<nav>
+	<a href="#about">About</a>
+	<a href="#hobbies">Hobbies</a>
+</nav>
+<div class="card"><h3>Football</h3></div>
